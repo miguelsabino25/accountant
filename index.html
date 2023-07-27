@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Accountant</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contador</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Início:
+          <input type="number" name="start" id="start" min="1" required />
+        </p>
+
+        <p>Fim: <input type="number" name="end" id="end" min="1" required /></p>
+
+        <p>
+          Passo: <input type="number" name="step" id="step" min="1" required />
+        </p>
+
+        <button>Contar</button>
+      </div>
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy; CursoemVídeo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
