@@ -11,6 +11,6 @@ Este é um projeto simples que consiste em uma página da web que permite ao usu
 ## Tecnologias Utilizadas
 
 - HTML: para criar a estrutura da página.
-- CSS: para estilizar os elementos na página (não fornecido no código, mas pode ser adicionado para personalização visual).
+- CSS: para estilizar os elementos na página.
 - JavaScript: para adicionar interatividade e funcionalidade à página.
 - Local Storage: para armazenar as sequências geradas.
